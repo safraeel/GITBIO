@@ -156,7 +156,7 @@ function Landing() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/GITBIO">
       <div className="min-h-screen">
         <Routes>
           <Route
